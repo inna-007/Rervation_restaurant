@@ -1,0 +1,56 @@
+.App {
+  min-height: 100vh;
+  background-color: #F5F5F5;
+}
+
+.App-header {
+  background-color: #495E57;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #F4CE14;
+}
+
+.App-header p {
+  margin: 1rem 0 0;
+  font-size: 1.2rem;
+  color: #EDEFEE;
+}
+
+main {
+  padding: 2rem 1rem;
+}
+
+/* Styles responsifs */
+@media (max-width: 768px) {
+  .App-header {
+    padding: 1.5rem;
+  }
+
+  .App-header h1 {
+    font-size: 2rem;
+  }
+
+  .App-header p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    padding: 1rem;
+  }
+
+  .App-header h1 {
+    font-size: 1.8rem;
+  }
+
+  main {
+    padding: 1rem 0.5rem;
+  }
+} 

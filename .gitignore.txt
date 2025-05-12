@@ -1,0 +1,31 @@
+# node modules
+node_modules/
+
+# Vite build
+dist/
+.vite/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# Editor folders
+.vscode/
+.idea/
+
+# test coverage
+coverage/
+
+# misc
+*.log
+*.cache
